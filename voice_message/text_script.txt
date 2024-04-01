@@ -1,0 +1,25 @@
+
+Message :
+
+Welcome to Cyient's Intelligent Cabin for Urban Air Mobility
+________________
+Welcome aboard, Mr. Ravi
+Welcome aboard, Mr. Hari
+Welcome aboard, Mr. Adarsh
+Welcome aboard, Mr. Umashankar
+
+
+
+Seat A1: Incorrect Occupant Identified
+Seat A2: Incorrect Occupant Identified
+Seat B1: Incorrect Occupant Identified
+Seat B1: Incorrect Occupant Identified
+
+
+Ready for Takeoff
+Unauthorize passanger
+
+Mr. Ravi, Kindly Apply your seat belt
+Mr. Hari, Kindly Apply your seat belt
+Mr. Adarsh, Kindly Apply your seat belt
+Mr. Umashankar, Kindly Apply your seat belt

@@ -1,0 +1,39 @@
+{
+  "CAMERA": {
+    "FIRST_CAMERA_INDEX": 0,
+    "SECOND_CAMERA_INDEX": 2
+  },
+  "SEAT_COORDINATES": {
+    "A1": [0.00, 0.55, 0.24, 0.05],
+    "A2": [0.25, 0.55, 0.5, 0.05],
+    "B1": [0.51, 0.55, 0.75, 0.05],
+    "B2": [0.76, 0.55, 1.0, 0.05]
+  },
+  "FRAME_SHAPE": [480, 1280, 3],
+  "SEAT_COORDINATES_OLD": {
+    "A1": [8, 450, 350, 10],
+    "A2": [400, 450, 850, 10],
+    "B1": [920, 450, 1234, 10],
+    "B2": [1429, 450, 1767, 10]
+  },
+  "SEAT_COORDINATES_COMMENT": {
+    "SEAT_NAME": ["start", "bottom", "end", "top"]
+  },
+  "MP3_FILES" : {
+    "Welcome": "Welcome.mp3",
+    "A1": "A1.mp3",
+    "A2": "A2.mp3",
+    "B1": "B1.mp3",
+    "B2": "B2.mp3",
+    "message_unauthorize": "message_unauthorize.mp3",
+    "seltbelt_Adarsh": "seltbelt_Adarsh.mp3",
+    "seltbelt_Hari": "seltbelt_Hari.mp3",
+    "seltbelt_Ravi": "seltbelt_Ravi.mp3",
+    "seltbelt_Uma shankar": "seltbelt_Uma shankar.mp3",
+    "welcome_Adarsh": "welcome_Adarsh.mp3",
+    "welcome_Hari": "welcome_Hari.mp3",
+    "welcome_Ravi": "welcome_Ravi.mp3",
+    "welcome_Umashankar": "welcome_Umashankar.mp3",
+    "message_takeoff": "message_takeoff.mp3"
+}
+}

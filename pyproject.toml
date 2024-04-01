@@ -1,0 +1,24 @@
+[tool.black]
+line-length = 140
+
+[tool.poetry]
+name = "ICMS"
+version = "0.1.0"
+description = """
+The ICMS (Integrated Cabin Management System) Dashboard is a web-based application designed to comprehensively monitor and manage various aspects of cabin operations aboard an aircraft. This system offers real-time insights into seat occupancy, passenger details, and seatbelt status, contributing to a secure and efficient in-flight experience.
+
+## Features
+
+- **Real-time Monitoring:** Gain live updates on seat occupancy, passenger information, and seatbelt status, enabling quick response to dynamic cabin conditions.
+
+- **Face Recognition:** Employ advanced facial recognition technology to identify passengers, facilitating seamless tracking and assignment to their designated seats.
+
+- **Seatbelt Status:** Monitor seatbelt usage in real time, with the ability to promptly detect and address any deviations from safety protocols. Cabin crew receives instant alerts in case of non-compliance.
+
+- **User-Friendly Interface:** Benefit from an intuitive dashboard design that ensures easy navigation and provides quick access to critical information. The user interface is designed with simplicity and efficiency in mind.
+"""
+authors = ["Ravi Shanker Singh"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
