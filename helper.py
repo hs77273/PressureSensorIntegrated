@@ -1,11 +1,3 @@
-"""Helper of ICMS Application
-
-This application utilizes face recognition to monitor passengers in an aircraft cabin. It includes features such as seat mapping, face verification, and seatbelt status tracking.
-
-Author: Ravi Shanker Singh
-"""
-
-
 import pathlib
 import time
 import tkinter as tk
