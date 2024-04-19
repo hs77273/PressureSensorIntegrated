@@ -70,7 +70,7 @@ def seat_status():
     try:
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BOARD)
-        pin_labels = {"A1": 13}
+        pin_labels = {"A2": 18}
 
         for pin in pin_labels.values():
             GPIO.setup(pin, GPIO.IN)
@@ -78,7 +78,7 @@ def seat_status():
         pin_states = {label: GPIO.input(pin) for label, pin in pin_labels.items()}
         result = {label: True if state == 1 else False for label, state in pin_states.items()}
 
-        result['A2'] = True
+        result['A1'] = True
         result['B1'] = True
         result['B2'] = True
 
