@@ -1,7 +1,7 @@
 {
   "CAMERA": {
-    "FIRST_CAMERA_INDEX": 0,
-    "SECOND_CAMERA_INDEX": 2
+    "FIRST_CAMERA_INDEX": 5,
+    "SECOND_CAMERA_INDEX": 4
   },
   "SEAT_COORDINATES": {
     "A1": [0.00, 0.55, 0.24, 0.05],
@@ -29,7 +29,7 @@
     "seltbelt_Adarsh": "seltbelt_Adarsh.mp3",
     "seltbelt_Hari": "seltbelt_Hari.mp3",
     "seltbelt_Ravi": "seltbelt_Ravi.mp3",
-    "seltbelt_Uma shankar": "seltbelt_Uma shankar.mp3",
+    "seltbelt_Uma shankar": "seltbelt_Umashankar.mp3",
     "welcome_Adarsh": "welcome_Adarsh.mp3",
     "welcome_Hari": "welcome_Hari.mp3",
     "welcome_Ravi": "welcome_Ravi.mp3",

@@ -46,24 +46,6 @@ def seatbelt_status():
 
 call_count = 0
 
-# def seat_status():
-#     global call_count
-#     call_count += 1
-#     seats = {"A1": True, "A2": True, "B1": True, "B2": True}
-#     if call_count >= 10 and call_count < 20:
-#         seats["B2"] = False
-#     elif call_count >= 30 and call_count < 40:
-#         seats["B2"] = True
-#     elif call_count >= 40:
-#         seats["A1"] = False
-#         seats["A2"] = False
-#         seats["B1"] = False
-#         seats["B2"] = False
-#     return seats
-
-# def seat_status():
-#     return {"A1": True, "A2": False, "B1": True, "B2": True}
-
 def seat_status():
     result = {}
 

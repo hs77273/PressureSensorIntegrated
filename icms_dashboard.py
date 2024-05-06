@@ -148,7 +148,7 @@ class WebcamApp:
                 if all(color == 'green' for _, (_, _, color) in self.track_last_five_frames.items()) and self.message_take_off:
                     message = "message_takeoff"
                     self.message_take_off = False
-                elif color in ('yellow','green'):
+                elif color in ('yellow',):
                     if name not in self.welcome_notification:
                         message = f"welcome_{name}"
                         self.welcome_notification[name] = True
@@ -165,15 +165,15 @@ class WebcamApp:
                 if seat in fixed_seatstatus:
                     name1, status1, color1 = fixed_seatstatus[seat]
                     self.notification_controller.update_single_seat(seat, None, color1, status1)
-                    if all(color1 == 'green' for _, (_, _, color1) in fixed_seatstatus.items()) and self.message_take_off:
+                    if len(fixed_seatstatus) == 4 and all(color1 == 'green' for _, (_, _, color1) in fixed_seatstatus.items()) and self.message_take_off:
                         message = "message_takeoff"
                         self.message_take_off = False
-                    elif color1 in ('yellow','green'):
+                    elif color1 == 'green':
                         if name1 not in self.welcome_notification:
                             message = f"welcome_{name1}"
                             self.welcome_notification[name1] = True
-                        else:
-                            message = f"seltbelt_{name1}"
+                    elif color1 == 'yellow':
+                        message = f"seltbelt_{name1}"
                     elif color1 == 'orange':
                         message = seat
                     elif color1 == 'red':
