@@ -148,7 +148,11 @@ class WebcamApp:
                 if all(color == 'green' for _, (_, _, color) in self.track_last_five_frames.items()) and self.message_take_off:
                     message = "message_takeoff"
                     self.message_take_off = False
-                elif color in ('yellow',):
+                elif color == 'green':
+                    if name not in self.welcome_notification:
+                        message = f"welcome_{name}"
+                        self.welcome_notification[name] = True
+                elif color == 'yellow':
                     if name not in self.welcome_notification:
                         message = f"welcome_{name}"
                         self.welcome_notification[name] = True
@@ -173,7 +177,11 @@ class WebcamApp:
                             message = f"welcome_{name1}"
                             self.welcome_notification[name1] = True
                     elif color1 == 'yellow':
-                        message = f"seltbelt_{name1}"
+                        if name1 not in self.welcome_notification:
+                            message = f"welcome_{name1}"
+                            self.welcome_notification[name1] = True
+                        else:
+                            message = f"seltbelt_{name1}"
                     elif color1 == 'orange':
                         message = seat
                     elif color1 == 'red':
